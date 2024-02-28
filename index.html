@@ -8,35 +8,51 @@
     <title>portofolio</title>
 </head>
 <body>
+    <header class = "hero">
+
     <nav>
+      <div class = "logo">
         <img src="images/Union.png" alt="logo">
-        <span>بصمة حياة</span>
-        <ul>
-            <li><a href="#store">المتجر</a></li>
-            <li><a href="#portofolio">الاعمال</a></li>
-            <li><a href="#contact">التواصل</a></li>
-            <li><a href="#about">عني</a></li>
-            <li><a href="#testomonials">الشهادات</a></li>
-        </ul>
+        <h1>بصمة حياة</h1>
+      </div>
+      <ul>
+          <li><a href="#store">المتجر</a></li>
+          <li><a href="#portofolio">الاعمال</a></li>
+          <li><a href="#contact">التواصل</a></li>
+          <li><a href="#about">عني</a></li>
+          <li><a href="#testomonials">الشهادات</a></li>
+      </ul>
+      <i class="fa-solid fa-bars" id="#bars-icon"></i>
     </nav>
+
     <section class="intro">
-    <h1>حياة خياط</h1>
-    <p>مدربة  ريزن معتمدة</p>
-    <img src="images/Union (1).png" alt="صورة">
-
+      <div class = "text-content">
+        <h1>حياة خياط</h1>
+      <p>مدربة  ريزن معتمدة</p>
+      </div>
+      <img class = "hero-image" src="images/Union (1).png" alt="صورة">
     </section>
-    <section>
-        <div id="about">
-            <h2>عني</h2>
-            <p>أنا فنانة رايزن متحمسة وأقوم بإنشاء قطع بسيطة ومبهرة باستخدام المادة الراتنجية الإيبوكسي. مع شغفي بالفن وإعجابي بسلاسة رايزن أسكب قلبي في كل إبداع.
 
-                مستوحى من الطبيعة، يعكس عملي جمالها من خلال الألوان الزاهية والنقوش المعقدة. أسعى لإثارة المشاعر وسرد القصص وإلهام المشاهدين من خلال تعبيراتي الفريدة.</p>
+  </header>
+
+
+    
+    <section>
+        <div class ="about" id="about">
+            <h2 class="title">عني</h2>
+            <ul class = "text-content">
+                <li>أنا فنانة رايزن متحمسة وأقوم بإنشاء قطع بسيطة ومبهرة باستخدام المادة الراتنجية الإيبوكسي. مع شغفي بالفن وإعجابي بسلاسة رايزن أسكب قلبي في كل إبداع.</li>
+                <li>مستوحى من الطبيعة، يعكس عملي جمالها من خلال الألوان الزاهية والنقوش المعقدة.</li>
+                <li>أسعى لإثارة المشاعر وسرد القصص وإلهام المشاهدين من خلال تعبيراتي الفريدة.</li>
+            </ul>
         </div>
     </section>
+
+
     <section>
-        <div id="portofolio">
-            <h3>الاعمال</h3>
-            <div class="imgs-container">
+        <div class = "portofolio" id="portofolio">
+            <h2 class="title">الاعمال</h2>
+            <div class="portofolio-content">
                 <div class="box">
                   <img decoding="async" src="images/image1.png" alt="" />
                   <div class="caption">
@@ -44,6 +60,7 @@
                     <p>Photography</p>
                   </div>
                 </div>
+
                 <div class="box">
                   <img decoding="async" src="images/images2.png" alt="" />
                   <div class="caption">
@@ -51,6 +68,7 @@
                     <p>Photography</p>
                   </div>
                 </div>
+
                 <div class="box">
                   <img decoding="async" src="images/image3png.png" alt="" />
                   <div class="caption">
@@ -58,6 +76,7 @@
                     <p>Photography</p>
                   </div>
                 </div>
+
                 <div class="box">
                   <img decoding="async" src="images/image4.png" alt="" />
                   <div class="caption">
@@ -65,6 +84,7 @@
                     <p>Photography</p>
                   </div>
                 </div>
+
                 <div class="box">
                   <img decoding="async" src="images/imges5.png" alt="" />
                   <div class="caption">
@@ -86,14 +106,15 @@
                     <p>Photography</p>
                   </div>
                 </div>
-               
+
                 </div>
               </div>
         </div>
     </section>
+
     <section>
         <div class="testomonials">
-            <h4>الشهادات</h4>
+            <h2 class="title">الشهادات</h2>
             <div class="testimonial-section">
                 <div class="testimonial">
                     <i class="fa-solid fa-user"></i>
@@ -117,11 +138,12 @@
     </section>
     <footer>
        <div id="contact">
-        <h5>التواصل</h5>
+        <h2 class="title">التواصل</h2>
       <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
       <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-envelope"></i></a>
       <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
        </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
